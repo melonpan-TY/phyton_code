@@ -1,0 +1,9 @@
+#Python 3.8.0
+#タイマー ０～９まで１秒毎にカウントする。
+#timeモジュールをインポート
+#timeモジュールのsleep関数を1秒に設定
+
+import time
+for i in range(0,10,1):#0～9のカウントをする
+  time.sleep(1)#１秒の遅延
+  print(i)#iの表示をする。
