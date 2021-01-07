@@ -1,0 +1,18 @@
+#Python 3.8.0
+#if文 ※コロンとインデントの位置に注意
+#変数nを1～4の値からランダムに選び、それぞれの数字に
+#応じておみくじの結果を表示させる
+
+import random#random関数をインポート
+sample_list = [1,2,3,4]#リスト１～４
+i = random.choice(sample_list)#変数iの値を1～4までランダムに選ぶ
+print("おみくじの結果は")
+#if文でiの値に応じておみくじの結果を表示させる
+if i == 1:
+  print("大吉です")
+elif i == 2:
+  print("中吉です。")
+elif i == 3:
+  print("末吉です。")
+else:
+  print("凶です。")
